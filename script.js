@@ -8,19 +8,19 @@ class Animal {
 	}
 
 	makeSound(){
-		console.log(this.species + " make a sound");
+		console.log(`The ${species} makes a sound`);
 	}
 }
 
 class Dog extends Animal {
-	purr(){
-		console.log(`The ${species} make a sound`);
+	bark(){
+		console.log("woof");
 	}
 }
 
 class Cat extends Animal {
-	bark(){
-		console.log(`The ${species} make a sound`);
+	purr(){
+		console.log("purr");
 	}
 }
 
