@@ -3,9 +3,6 @@ class Animal {
 	constructor(species){
 		this.species = species;
 	}
-	get() {
-		return this.species;
-	}
 
 	makeSound(){
 		console.log(`The ${species} makes a sound`);
